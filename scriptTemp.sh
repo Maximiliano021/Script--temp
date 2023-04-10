@@ -1,9 +1,9 @@
 #!/bin/bash
 #Author:Maxi-Escudero
 
-cd ../AppData/Local/Temp/
+cd && cd AppData/Local/Temp
 
-rm -r -rf *.tmp *.log *.bmp *.zip
+rm -r */ -rf *.tmp *.log *.bmp *.zip *.ses *.dat *.cache *.ses *.db *.bin
 
 
 read -p '*-listo-'
